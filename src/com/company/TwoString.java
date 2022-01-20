@@ -1,9 +1,8 @@
 package com.company;
-
 import java.util.Arrays;
 
 public class TwoString {
-    public static boolean areAnagram(char[] str1, char[] str2) {
+    public static boolean equal(char[] str1, char[] str2) {
             int n1 = str1.length;
             int n2 = str2.length;
             if (n1 != n2) {
@@ -20,9 +19,9 @@ public class TwoString {
         public static void main(String args[]) {
             String s1 = "abcd";
             String s2 = "dcba";
-            if (areAnagram(s1.toCharArray(), s2.toCharArray()))
-                System.out.println("The two strings are anagram of each other");
+            if (equal(s1.toCharArray(), s2.toCharArray()))
+                System.out.println("The two strings are equal of each other");
             else
-                System.out.println("The two strings are not anagram of each other");
+                System.out.println("The two strings are not equal of each other");
         }
     }
