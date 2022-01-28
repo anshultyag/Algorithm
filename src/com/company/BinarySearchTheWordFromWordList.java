@@ -8,8 +8,8 @@ public class BinarySearchTheWordFromWordList {
     public static String[] bubbleSort(String[] str) {
         String temp;
         for (int j = 0; j < str.length; j++) {          // Bubble Sort = Used to sort array
-            for (int i = j + 1; i < str.length; i++) {  //@param str = input to bubble sort
-                if (str[i].compareTo(str[j]) < 0) {     //@return
+            for (int i = j + 1; i < str.length; i++) {
+                if (str[i].compareTo(str[j]) < 0) {
                     temp = str[j];
                     str[j] = str[i];
                     str[i] = temp;
