@@ -1,5 +1,4 @@
 package com.company;
-import java.util.Arrays;
 public class TwoString {
 
     static void printPermutation(String str, String ans){
